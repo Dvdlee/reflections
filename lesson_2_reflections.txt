@@ -2,3 +2,11 @@ What happens when you initialize a repository? Why do you need to do it?
 	When you initialize a repository using "git init" you are creating an empty Git repository in that directory. This is for future use when you add files that git should save the history of. I believe the .git contains the history of all the files in there. One needs to do it in order to create a repository that saves on to Git. You can do this offline/online it doesn't matter. Git doesn't make any commits initially without you because how else would you write comments then? Git gives you so much more control then other version-control programs, supposedly.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area is different from the working directory and the repository in that the repository is inside the working directory and the insides fo the working directory consist of the repository BUT the repository does not consist of all of the working directory. The value I believe that it offers is that you can have multiple repositories stored in one working directory.
+How can you use the staging area to make sure you have one commit per logical change?
+	You can use the staging area to add one file at a time if you 
+	had already worked ahead. So you can add one logical change
+	at a time if you already have more than one logical change
+	and you can make sure you only get the ones you want to commit
+	committed and nothing else by accident.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When you are making different difficulty levels, when you are experimenting with a feature, and many more. When your program doesn't work anymore after creating a bug on a different branch that destroys your project. You can still show your master project(main project).
