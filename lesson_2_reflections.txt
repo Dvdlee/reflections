@@ -13,4 +13,4 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 	The diagrams help me visualize the branch structure by giving me a visual on how the commits work.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-	The result of merging two branches together merges coin onto the master branch making it essentially making the coin branch LABEL useless. We represent it in the diagram the way we do because the coin branch essentially merges with the master branch combining the git log by timestamps.
+	The result of merging two branches together merges coin onto the master branch making it essentially making the coin branch LABEL useless. We represent it in the diagram the way we do because the coin branch essentially merges with the master branch combining the git log by timestamps. To look at the latest git commit file differences they check the first parent of the new branch and compare it to both the latest master branch update and the latest coin update and then compare; merging the two. So you would git branch -d coins
