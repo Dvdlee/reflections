@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	diff -u helps you see code that has been deleted and 
+	added. You can see the difference between them by comparing the twol
+	that have been edited. There are slight downsides:
+	one being that you have to actually take time and compare the two.
+	If there was a program that compared the two without YOU
+	having to look at the other lines of code, that would be
+	much more convenient.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Having easy access to the entire history of a file could make me an efficient programmer in the long term because it would be much easier to see what went wrong in code that needs debugging. You could be able to see the progression of your code and how effective you've made your code as time has progressed.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	The pros of manually choosing to create a commit is that you can make the commit solely for one purpose/function, such as Fixing a bug or an error. Having one commit per logical change is extremely useful, saving time in the long run with easy access. We can also comment up our commits making it easier to see our progress. However, the cons of manually choosing when to create a commit is that we have to constantly stop and do a commit everytime we fix an error or make a logical change to the program. This takes time. Constantly creating commits in an interval or every line change will be convenient, but take too much time to find one's source of error. 
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Some version control systems, like Git, allow saving multiple files in one commit because this is a coding based version control system intended for programmers and a programmer needs all their files in order to run a program. The repository is saved everytime a commit is handled so it can run just like it had before. Other version control systems like Google Drive treat each file separately because their priority are not programmers, but the average consumer does not need multiple files to run a text document such as Google Docs. 
+How can you use the commands git log and git diff to view the history of files?
+	git log can be used to view the history of files by looking at in overall all of the commits made, using the comments to further look at them. Git log --stat tells the user how many files were changed, how many lines of code were inserted, how many lines of code were deleted. Git log is useful in looking at the history of the file and repository. Git diff is more specific to specific files that have been used/changed in their times. git diff shows us the difference between the two lines with the GUI's. The (+) indicating an insertion of code while the (-) indicating a deletion of code. 
+How might using version control make you more confident to make changes that could break something?
+	Using versional control will make you more confident to try things out and make new changes that could potentially break something because if it breaks YOU have commits. So if you are constantly making commits after every Logical change or every new function/purpose you should be fine. You can then check to see if the new code works/breaks. If it breaks then you can use version-control to check previous code and see what went wrong with your code. Git checkout is truly an amazing code especially the branches. Downside is that you need to know the very last commit made so you can checkout that to revert back to your previous. Allows you to become a risktaker take risks take more than baby steps.
+Now that you have your workspace set up, what do you want to try using Git for?
+	I want to use Git for version-control because that way when I create code and want to make big changes I won't be afraid to make them because I put so much work into it already. I can just use git checkout and make a new branch. An example of that would be completely changing the algorithms of a game. Using a branch can help you save time and etc. I want to use git for programminga and learning IOS Developer as well as my own projects.
+
+	git log --stat
+		which files have changed in each commit
+		and each insertion/deletion
+	git clone
+		Clones a repository, no need for online access now :)
+	git diff first_id second_id
